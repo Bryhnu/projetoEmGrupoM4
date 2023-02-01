@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `nba`
+-- Banco de dados: `nba_times`
 --
-CREATE DATABASE IF NOT EXISTS `nba` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `nba`;
+CREATE DATABASE IF NOT EXISTS `nba_times` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `nba_times`;
 
 -- --------------------------------------------------------
 
