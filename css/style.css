@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* nav e corpo do site */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.mexerNav{
+    height: 80px;
+}
+/* fim */
+
+
+
+/* movimentação e estilização da página HOME */
+#container{
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#containerEsq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%; 
+}
+
+#containerDir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.imagem{
+    height: 50%;
+}
+
+
+#textoContainer{
+    margin-top: 100px;
+   text-align: center;
+}
+
+
+#containerCard{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* fim do HOME */
+
+
+
+
+
+
+
+
