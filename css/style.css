@@ -1,67 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 /* nav e corpo do site */
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-
-.mexerNav{
+.mexerNav {
     height: 80px;
 }
+
+main {
+    background-color: #cfcfcf;
+}
+
+
+
 /* fim */
 
 
 
 /* movimentação e estilização da página HOME */
-#container{
-    margin-top: 100px;
-    height: 500px;
+
+#container {
+    padding-top: 100px;
+    height: 700px;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-#containerEsq{
+
+#containerEsq {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%; 
+    width: 50%;
 }
 
-#containerDir{
+#containerEsq img {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 550px;
+    width: 600px;
+}
+
+#containerEsq:hover img {
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(1.05);
+}
+
+#containerDir {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%; 
+    width: 50%;
 }
 
-.imagem{
+#containerDir div+div {
+    margin-top: 50px;
+}
+
+#containerDir1 img {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 270px;
+    width: 600px;
+
+}
+
+#containerDir1:hover img {
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(1.05);
+}
+
+
+#containerDir2 img {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 270px;
+    width: 600px;
+
+}
+
+#containerDir2:hover img {
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(1.05);
+}
+
+.imagem {
     height: 50%;
 }
 
 
-#textoContainer{
-    margin-top: 100px;
-   text-align: center;
+.textoContainer {
+    color: black;
+    margin-top: 50px;
+    text-align: center;
 }
 
 
-#containerCard{
+#containerCard {
+    color:  whitesmoke;
     margin-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
+
+
+#containerCard img{
+    height: 400px;
+    width: 900px;
+}
+
+#containerCard div+div {
+    margin-top: 50px;
+}
+
+
+.souH1 {
+    margin-bottom: 50px;
+}
+
+
 
 /* fim do HOME */
-
-
-
-
-
-
-
-
