@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* nav e corpo do site */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.mexerNav {
+    height: 80px;
+}
+
+main {
+    background-color: #cfcfcf;
+}
+
