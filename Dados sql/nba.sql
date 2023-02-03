@@ -44,8 +44,8 @@ CREATE TABLE `líderes da temporada` (
 
 INSERT INTO `líderes da temporada` (`Pontos por jogo`, `Rebotes por jogo`, `Assistências por jogo`, `Blocks por jogo`, `Roubos por jogo`, `Porcentagem de  Field Goals`, `Três pontos feitos`, `Porcentagem de três pontos`) VALUES
 ('1.Joel Embiid (PHI) (33.5)\r\n\r\n', '1.Giannis Antetokounmpo (MIL) (12.3)', '1.Tyrese Haliburton (IND) (10.3)', '1.Nic Claxton (BKN) (2.6)', '1.Jimmy Butler (MIA) (2.1)', '1.Nic Claxton (BKN) (73.9)', '1. Buddy Hield (IND) (199)', '1.Damion Lee (PHX) (46.2)'),
-('2.Luka Doncic (DAL) (33.4)', '1.Domantas Sabonis (SAC) (12.3)', '2.Nikola Jokic (DEN) (10.1)', '2.Brook Lopez (MIL) (2.5)', '1.O.G. Anunoby (TOR) (2.1)', '2.Mason Plumlee (CHA) (67.7)', '2.Stephen Curry (GSW) (183)', '1.Kentavious Caldwell-Pope (DEN) (46.2)'),
-('3.Giannis Antetokounmpo (MIL) (32.3)', '3. Rudy Gobert (MIN) (11.8)', '3.Trae Young (ATL) (9.9)', '3.Myles Turner (IND) (2.4)', '3.De\'Anthony Melton (PHI) (1.9)', '3. Rudy Gobert (MIN) (67.5)', '3. Anfernée Simons (POR) (175)', '3.Luke Kennard (LAC) (45.3)'),
+('2.Luka Doncic (DAL) (33.4)', '2.Domantas Sabonis (SAC) (12.3)', '2.Nikola Jokic (DEN) (10.1)', '2.Brook Lopez (MIL) (2.5)', '1.O.G. Anunoby (TOR) (2.1)', '2.Mason Plumlee (CHA) (67.7)', '2.Stephen Curry (GSW) (183)', '2.Kentavious Caldwell-Pope (DEN) (46.2)'),
+('3.Giannis Antetokounmpo (MIL) (32.3)', '3. Rudy Gobert (MIN) (11.8)', '3.Trae Young (ATL) (9.9)', '3.Myles Turner (IND) (2.4)', '3.Anthony Melton (PHI) (1.9)', '3. Rudy Gobert (MIN) (67.5)', '3. Anfernée Simons (POR) (175)', '3.Luke Kennard (LAC) (45.3)'),
 ('4.Jayson Tatum (BOS) (31.1)', '4.Steven Adams (MEM) (11.5)', '4.Ja Morant (MEM) (8.3)', '4.Walker Kessler (UTA) (2.1)', '4.Tyrese Haliburton (IND) (1.8)', '4.Brandon Clarke (MEM) (66.6)', '4.Malik Beasley (UTA) (165)', '4.Malcolm Brogdon (BOS) (45.1)'),
 ('5.Shai Gilgeous-Alexander (OKC) (30.8)\r\n', '5.Nikola Vucevic (CHI) (11.2)', '5.Luka Doncic (DAL) (8.2)\r\n', '5.Mitchell Robinson (NYK) (1.8)', '5.Alex Caruso (CHI) (1.7)\r\n', '5.Thomas Bryant (LAL) (65.5)\r\n', '5.Jayson Tatum (BOS) (164)', '5.Alec Burks (DET) (44)');
 
