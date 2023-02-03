@@ -1,4 +1,3 @@
-
 * {
     margin: 0%;
     padding: 0%;
@@ -10,4 +9,53 @@
 
 main {
     background-color: #f9f9f9;
+    height: 100vw;
 }
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1Bola{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+
+
+
+#bola{
+    position: relative;
+    top: -20px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+
+#h1Pergunta{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+    background-color: #02104d;
+}
+
+#container2{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
