@@ -7,7 +7,7 @@
 }
 
 .mexerNav {
-    height: 80px;
+    height: 110px;
 }
 
 main {
@@ -26,6 +26,7 @@ main {
 
 
 #containerEsq {
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,12 +34,11 @@ main {
 }
 
 #containerEsq img {
-    max-width: 100%;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    height: 520px;
-    width: 500px;
+    height: 550px;
+    width: 580px;
 }
 
 #containerEsq:hover img {
@@ -61,7 +61,7 @@ main {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     height: 250px;
-    width: 540px;
+    width: 550px;
 
 }
 
@@ -78,7 +78,7 @@ main {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     height: 250px;
-    width: 540px;
+    width: 550px;
 
 }
 
@@ -104,7 +104,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 170px;
+    height: 180px;
     margin-top: 100px;
     color: white;
     background-color: #02104d;
@@ -114,32 +114,6 @@ main {
     text-decoration: none;
 }
 
-#quadraBasq{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 8px;
-    margin-top: 230px;
-    margin-bottom: 400px;
-    color: white;
-    background-color: black;
-}
-
-#quadra{
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    border: 8px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.linha{
-    height: 5px;
-    width: 100%;
-    background-color: white;
-}
 
 #bola{
     height: 120px;
