@@ -11,7 +11,7 @@
 }
 
 main {
-    background-color: #f9f9f9;
+    background-color: #ebe3e3;
 }
 
 
@@ -120,7 +120,7 @@ main {
     align-items: center;
     height: 8px;
     margin-top: 230px;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
     color: white;
     background-color: black;
 }
@@ -173,9 +173,15 @@ main {
     margin-bottom: 50px;
 }
 
-#h1Squad{
-    margin-top: 100px;
-    color: white;
+
+#cards{
+    display: flex;
     background-color: #02104d;
-    text-align: center;
 }
+
+#cards1{
+    display: flex;
+    flex-direction: row;
+}
+
+
