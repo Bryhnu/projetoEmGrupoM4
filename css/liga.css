@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-/* nav e corpo do site */
 * {
     margin: 0%;
     padding: 0%;
@@ -11,6 +9,5 @@
 }
 
 main {
-    background-color: #cfcfcf;
+    background-color: #f9f9f9;
 }
-
