@@ -7,7 +7,7 @@
 
 
 
--- Os 5 times com as maiores sequências de derrota da temporada
+-- Principais times que se classificaram para as playoffs
 SELECT * FROM `tabela` 
 ORDER BY `classificacao` ASC 
 LIMIT 5;
