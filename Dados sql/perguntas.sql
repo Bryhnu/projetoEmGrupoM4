@@ -1,16 +1,16 @@
 -- Quem são os 5 líderes da conferências leste e oeste ?
+SELECT * FROM `tabela` 
+ORDER BY `classificacao` ASC 
+LIMIT 2;
 
-
-
-
--- Os 5 times com as maiores sequências de derrota da temporada
-
-
+-- Os 5 times com as maiores sequências de vitoria da temporada
+SELECT * FROM `tabela` 
+ORDER BY `tabela`.`seq` DESC
 
 -- Principais times que se classificaram para as playoffs
 SELECT * FROM `tabela` 
-ORDER BY `classificacao` ASC 
-LIMIT 5;
+WHERE classificacao BETWEEN 1 and 8 
+ORDER BY `tabela`.`classificacao` ASC
 
 -- Quais os 5 times mais antigos?
 SELECT * FROM `times` 
