@@ -1,4 +1,4 @@
--- Quem são os líderes daS conferências leste e oeste?
+-- Quem são os líderes das conferências leste e oeste?
 SELECT * FROM `tabela` 
 ORDER BY `classificacao` ASC 
 LIMIT 2;
